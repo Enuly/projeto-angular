@@ -1,0 +1,22 @@
+
+mat-toolbar {
+    margin-bottom: 10px;
+}
+  
+.titleNav{
+    font-size: 25px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 10px;
+    flex: 1;
+}
+
+.menu-container {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #994599;
+}
+
+

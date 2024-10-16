@@ -1,0 +1,43 @@
+.custom-card {
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.card-title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    color: #994599;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mat-form-field {
+    width: 280px;
+    margin-bottom: 16px;
+}
+
+mat-label{
+    font-size: 12px;
+}
+
+.button {
+    width: 150px;
+    background: #7a237a; 
+    color: white;
+    cursor: pointer; 
+    transition: background 0.4s; 
+}
+

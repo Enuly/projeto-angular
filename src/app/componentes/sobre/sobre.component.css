@@ -1,0 +1,35 @@
+.custom-card {
+  width: 660px;
+  margin: 10px auto;
+  box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.3); 
+}
+
+mat-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #994599;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.749);
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-top: 10px;
+  color: white;
+}
+

@@ -1,0 +1,14 @@
+.not-found-card {
+    color: white;
+    box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mat-card-title{
+    margin: 20px;
+    font-size: 60px;
+}
+
+.not-found-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.3); 
+}

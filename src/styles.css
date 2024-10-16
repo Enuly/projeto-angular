@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(to right, #6e288f, #1b273c); /* Substitua pelo código da cor desejada */
+    overflow: hidden;
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html, body { height: 100%; }
+
+.center-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;   
+    height: calc(100vh - 64px); 
+    gap: 10px;
+}
