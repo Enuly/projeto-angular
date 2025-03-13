@@ -9,6 +9,6 @@ export const routes: Routes = [
     { path: 'Sobre', component: SobreComponent },
     { path: 'cadastro', component: CadastroComponent },
     { path: 'notfound', component: NotFoundComponent },
-    { path: '**', redirectTo: 'notfound', pathMatch: 'full' }
+    { path: '**', component: NotFoundComponent },
 
 ];
